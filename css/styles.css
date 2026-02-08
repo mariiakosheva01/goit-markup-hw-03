@@ -185,6 +185,7 @@ a {
 .contact-list-link {
     color: #434455;
         text-decoration: none;
+        display: inline-block
 }
 .contact-list-link:hover {
     color: #404BBF;
