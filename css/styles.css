@@ -128,13 +128,17 @@ a {
     text-decoration: none;
 }
 
-.main-nav {
+.nav-main {
     color: #2E2F42;
         font-family: Roboto;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        display: flex;
+        align-items: center;
+
+       
 
 }
 
@@ -150,6 +154,8 @@ a {
   padding-bottom: 24px;
  color: #2E2F42;
  text-decoration: none;
+
+
 }
 .nav-item-link:hover {
     color: #404BBF;
@@ -167,7 +173,8 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
-    
+
+   
 }
 
 .contact-list-link {
