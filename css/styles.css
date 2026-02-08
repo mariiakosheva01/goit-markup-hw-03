@@ -23,17 +23,18 @@ img {
 }
 
 .features,
-.team,
-.portfolio {
+.our-team,
+.our-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
 .features .container,
-.team .container,
-.portfolio .container {
+.our-team .container,
+.our-portfolio .container {
     padding-top: 0;
     padding-bottom: 0;
+    
 }
 p {
     font-weight: 400;
@@ -199,7 +200,7 @@ a {
 }
 
 
-.main-hero.container {
+.main-hero .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -246,6 +247,7 @@ a {
         white-space: nowrap;
         display: block;
         margin: 48px auto 0 auto;
+        cursor: pointer;
     
 }
 .main-hero-button:hover {
