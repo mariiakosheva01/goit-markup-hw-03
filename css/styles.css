@@ -106,7 +106,7 @@ header {
 
 }
 
-.header .container {
+.page-header .container {
 display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,7 +144,7 @@ a {
 
 
 
-.nav-item-link {
+.nav-link {
  display: inline-block;
  font-weight: 500;
  font-size: 16px;
@@ -157,12 +157,15 @@ a {
 
 
 }
-.nav-item-link:hover {
+.nav-link:hover {
     color: #404BBF;
 }
 
-.nav-item-link:focus {
+.nav-link:focus {
     color: #404BBF;
+}
+.nav-list {
+    gap: 40px;
 }
     
 
@@ -173,13 +176,13 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
+    gap: 40px;
 
    
 }
 
 .contact-list-link {
     color: #434455;
-    gap: 40px;
         text-decoration: none;
 }
 .contact-list-link:hover {
