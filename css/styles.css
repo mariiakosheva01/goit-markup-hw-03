@@ -112,6 +112,9 @@ display: flex;
     justify-content: space-between;
     align-items: center;
 }
+address {
+    font-style: normal;
+}
 .logo {font-family: Raleway;
     font-weight: 700;
     font-size: 18px;
@@ -178,6 +181,7 @@ a {
     color: #434455;
     font-style: normal;
     gap: 40px;
+    
 
    
 }
@@ -193,6 +197,8 @@ a {
 .contact-list-link:focus {
     color: #404BBF;
 }
+
+
 /* region hero */
 .main-hero {
     background-color: #2E2F42;
